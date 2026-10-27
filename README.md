@@ -25,6 +25,6 @@ The project consists of 10 interconnected tables:
 * `Lek` & `Pozycja_Recepty` – Pharmacy catalog, stock levels, and prescription details.
 
 ## How to Run (Oracle Database)
-1. Execute `schema.sql` (or `01_DDL_MediCare.sql`) to generate tables, primary keys, and foreign key constraints.
-2. Execute `seed_data.sql` (or `02_DML_MediCare.sql`) to populate sample data.
-3. Run queries from `queries.sql` (or `03_SELECT_MediCare.sql`) to test business logic and reporting views.
+1. Execute `schema.sql` to generate tables, primary keys, and foreign key constraints.
+2. Execute `seed_data.sql` to populate sample data.
+3. Run queries from `queries.sql` to test business logic and reporting views.
